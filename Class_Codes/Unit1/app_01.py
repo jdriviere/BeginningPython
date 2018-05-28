@@ -6,6 +6,6 @@
 #              those who want to start coding.
 # @date 05-25-2018
 #
-# MODULE 1
+# UNIT 1
 # Class 01 - "Hello, World"
 # ============================================
