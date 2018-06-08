@@ -29,9 +29,9 @@ print("Hello, World!")
 # Print sentence you want into the Command Line.
 # Make sure you run the command in your Terminal
 # to make sure your code works!
-# Once your done, and if you have set up a Github
+# Once your done, and if you had set up a Github
 # account, make sure you upload your code to your
-# repository!
+# repository also!
 #
 # OBJECTIVE:
 # The goal of this assignment is to teach you
