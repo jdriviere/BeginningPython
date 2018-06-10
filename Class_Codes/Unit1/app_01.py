@@ -23,6 +23,7 @@
 # requires more commands to make a simple line print.
 # ============================================
 print("Hello, World!")
+print("Welcome to my Beginning Python 3 class!")
 
 # --------------------------------------------#
 # ASSIGNMENT:
