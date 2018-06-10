@@ -22,8 +22,7 @@
 # you would see that it is much more complex, as it
 # requires more commands to make a simple line print.
 # ============================================
-print("Hello, World!")
-print("Welcome to my Beginning Python 3 class!")
+print("Hello, World! Welcome to my Beginning Python 3 class!")
 
 # --------------------------------------------#
 # ASSIGNMENT:
