@@ -24,6 +24,16 @@
 # int a = 30;   |  a = 30
 #
 # *Which one would you rather choose? ;)
+#
+# In any programming languages, variables should always be
+# declared, first, and then attribute it a value, so that it
+# can be used. Some languages even permit you to declare a
+# variable without giving it a value right away. Unfortunately,
+# this is NOT the case for Python!
+# 
+# --- JAVA ---  | --- PYTHON ---
+# int a;        | a <-- This is NOT allowed! 
+# a = 30;       | a = 30
 # ============================================
 a = 30
 b = "Hello"
@@ -44,6 +54,12 @@ print("Value of d:", d, " - Type of value d:", type(d))
 # each value, using the method type().
 #
 # OBJECTIVE:
+# Although one doesn't have to tell Python what type
+# of value a variable is (like other more complex
+# programming languages), Python is smart enough to determine
+# it and remember it for you. But what if you forget it, or
+# you can't see where and how it was declared? Simply use
+# the type() method!
 #
 # --> START YOUR ASSIGNMENT BELOW! <--
 # --------------------------------------------
