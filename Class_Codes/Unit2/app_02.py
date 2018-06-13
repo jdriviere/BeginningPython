@@ -52,6 +52,11 @@ print("Value of d:", d, " - Type of value d:", type(d))
 # Create as many variables as you want and give
 # them each a value. Then determine the type of
 # each value, using the method type().
+# Try to create a value like the Java example to
+# see if it works. Do you receive an error, or is it
+# allowed? What happens when you create a variable but
+# you don't give it a value right away, then try to
+# print it?
 #
 # OBJECTIVE:
 # Although one doesn't have to tell Python what type
