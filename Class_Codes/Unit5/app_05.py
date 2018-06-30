@@ -185,7 +185,99 @@ else:
 # functions just to compute a simple task. ;)
 #
 # ============================================
-pass
+print()
+
+print("--------------------------------")
+print("WHILE Loops")
+print("--------------------------------")
+counter = 0
+
+print("Loop starts...")
+while counter <= 5:
+    print(counter)
+    counter += 1 # If you remove this line, you will create an infinite loop
+                 # which may cause your program or even computer to crash
+print("Loop has ended...")
+
+print()
+
+print("--------------------------------")
+print("WHILE-ELSE Loops")
+print("--------------------------------")
+counter = 6 # Change this value to go through loop
+
+print("Loop starts...")
+while counter <= 5:
+    print(counter)
+    counter += 1 # If you remove this line, you will create an infinite loop
+                 # which may cause your program or even computer to crash
+else:
+    print("Counter is too high. Loop was skipped!")
+print("Loop has ended...")
+
+print()
+
+print("--------------------------------")
+print("FOR Loops")
+print("--------------------------------")
+list_a = [1, 2, 3, 4, 5]
+print("List A:", list_a)
+
+print("Loop starts...")
+for a in list_a:
+    print(a)
+print("Loop has ended...")
+
+print()
+
+str_a = "Hello, World!"
+print("String A:", str_a)
+
+print("Loop starts...")
+for char in str_a:
+    print(char)
+print("Loop has ended...")
+
+print()
+
+list_a = [1, 2, 3, 4, 5]
+print("List A:", list_a)
+
+print("Loop starts...")
+for a in list_a:
+    print(a)
+print("Loop has ended...")
+
+print()
+
+print("--------------------------------")
+print("BREAK Statements")
+print("--------------------------------")
+break_a = "a"
+string_a = "This is an example loop."
+print("String to be used: '", string_a, "'")
+print("Character that will BREAK the loop:", break_a)
+print("Loop starts...")
+for a in string_a:
+    if a == break_a:
+        break
+    print(a)
+print("Loop has ended...")
+
+print()
+
+print("--------------------------------")
+print("CONTINUE Statements")
+print("--------------------------------")
+skip_a = "i"
+string_a = "We will be using this long string now."
+print("Character that will SKIP in the loop:", skip_a)
+print("Loop starts...")
+for a in string_a:
+    if a == skip_a:
+        continue
+    print(a)
+print("Loop has ended...")
 
 # --------------------------------------------#
 # ASSIGNMENT:
@@ -197,9 +289,10 @@ pass
 # ELIF statements).
 # Once you're done, how about doing the same thing, but with the loops
 # we've talked about in the videos (meaning, WHILE loops, WHILE-ELSE
-# loops, and FOR loops). Make sure you use the examples as guide; and
+# loops, and FOR loops)? Make sure you use the examples as guide; and
 # above all, watch out for infinite loops, as they can cause your
-# computer to crash, if they are not properly managed.
+# computer to crash, if they are not properly managed. You can also
+# implement breaks and continues to push your loops a bit further.
 #
 # If you happen to have accidentally create one, press CTRL + C,
 # CTRL + D, or CTRL + Z in order to force-terminate your code.
