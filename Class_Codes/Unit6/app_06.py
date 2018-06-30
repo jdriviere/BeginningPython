@@ -163,14 +163,73 @@ print("Adding 2 and 5, using a Lambda Expression:", add_num(2, 5))
 say_hello_v2 = lambda : print("Hello, World! (From a Lambda Expression!)")
 say_hello_v2()
 
+print()
+
+# ============================================
+# Now that we're done talking about functions, let's jump
+# straight to modules. As a refresher, let me remind you
+# what a module is: it is a Python file that contains
+# some code, which can be exported and then imported into
+# another Python file. Most popular programming languages
+# have their own way to import their modules. And most of
+# them import their modules the same way, with a slightly
+# different syntax. In Python, there are three ways of
+# importing modules:
+#
+# - import <module_name>
+# - from <module_name> import <module_1, ..., module_N>
+# - from <module_name> import *
+#
+# We're going to start importing another file called
+# 'import_me.py' to use it as example for all three
+# import types.
+# ============================================
+print("======================")
+print("Module Imports")
+print("======================")
+import import_me
+
+age = import_me.my_age # Notice that I called the module name, and then the element I want
+print("My age is:", age)
+
+
+from import_me import say_hi
+say_hi('Justin') # Notice I didn't have to call the module name. It's already done for me at the import
+
+# ============================================
+# NOTE:
+# I won't need to use the third import funtion for several
+# reasons:
+#   - The import <module_name> does the job for me already
+#   - It's more risky to use the wildcard (*)
+#   - You only use the wildcard if you absolutely must
+# ============================================
+
+
 # --------------------------------------------#
 # ASSIGNMENT:
+# Create a function for each type of function that were discussed
+# in the lession, then invoke them. Do you have any errors? If so,
+# what do you think was the problem? How would you solve it?
+# What's the main difference between an Anonymous Function and a
+# regular function? Why choose one over the other, or when?
+#
+# Create another Python file (make sure the extension is '.py') and
+# write a function and a variable to be exported. Import it into this
+# file using one of the import statements. Then invoke that function
+# and/or fetch that imported variable. Did it work? If not, why do you
+# think it didn't?
 #
 # NOTE: Don't forget to upload your code into your Github repository
 #       (if you have created an account, or already have an account)
 #       once you are done! :)
 #
 # OBJECTIVE:
+# The objective of the assignment is to ensure the student understand
+# the importance of functions and modules, because the next level of
+# Python programming, the Object-Oriented Programming (OOP), functions
+# mainly through functions. Not understanding functions may be detrimental
+# to the understanding of Classes, and other advanced concepts.
 #
 # --> START YOUR ASSIGNMENT BELOW! <--
 # --------------------------------------------

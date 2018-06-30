@@ -1,8 +1,9 @@
 # Folders
 .idea/
 .vscode/
-Class_Codes/venv/
 Class_Codes/.idea/
+Class_Codes/Unit6/__pycache__/
+Class_Codes/venv/
 Class_Notes/
 Class_Videos/
 venv/
