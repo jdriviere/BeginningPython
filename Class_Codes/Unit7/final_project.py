@@ -7,7 +7,7 @@
 # @date 06-29-2018
 #
 # UNIT 7
-# Activity 01 - Final Project#
+# Activity 01 - Final Project
 # ============================================
 pass
 
