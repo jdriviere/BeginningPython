@@ -3,6 +3,7 @@
 .vscode/
 Class_Codes/.idea/
 Class_Codes/Unit6/__pycache__/
+Class_Codes/Unit7/__pycache__/
 Class_Codes/venv/
 Class_Notes/
 Class_Videos/
@@ -10,7 +11,10 @@ venv/
 
 # Files
 Class_Codes/Unit3/ex03.py
+Class_Codes/Unit4/ex04.py
 Class_Codes/Unit6/ex06.py
 Class_Codes/Unit7/code.py
+Class_Codes/Unit7/final.py
+Class_Codes/Unit7/my_import.py
 Class_Syllabus/SkillShare_BeginningPython_v01.doc
 Skillshare_Teacher_Handbook.pdf
